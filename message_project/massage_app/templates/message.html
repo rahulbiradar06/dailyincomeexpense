@@ -1,0 +1,10 @@
+<h1>this is message opertaion</h1>
+
+<h2 style="color: brown;">{{fmsg}}</h2>
+<h2 style="color: brown;">{{lmsg}}</h2>
+<form method="POST">
+    {%csrf_token%}
+    <input type="text" name="uname" size="30" placeholder="please enter username"><br><br>
+    <input type="password" name="passw" size="30" placeholder="please enter password"><br><br>
+    <input type="submit" value="submit"><br><br><br><br>
+</form>
